@@ -1,65 +1,34 @@
-![Logo do Projeto](https://github.com/Nicolas-Alves-De-Oliveira/Projetos/blob/cdf09683da02c6a8e3fcc5d8dd416bebea12cc02/Dados/Logo.png)
+![Logo do Projeto](https://github.com/Nicolas-Alves-De-Oliveira/Projetos/blob/f3f94f7cfddacfc4d71a78e9b7ce5a09ac5db98d/Dados/Info.png)
 
-## Name_of_the_project
+## Sobre
  
-... Description
+Olá, sou Nicolas Alves😎👍
+
+Sou uma pessoa que busca oportunidade e crescimento profissional🚀. Sou dedicado em tudo o que me proponho a fazer📝 e busco alinhar todas as minhas metas para atingir meus objetivos🎯.
+
+Fiz cursos de aprimoramento de conhecimentos, como o Power BI✨ que me proporcionou Hard Skills🔧, E estou tendo uma excelente experiência na Montana Química🌃🧪 que me permitiu obter Soft Skills🔎 e atualmente estou estudando Python✨, Desenvolvimento Web✨ e SQL✨.
+
+Sou completamente apaixonado pela área de tecnologia💻. Sempre estou em busca de aprender coisas novas sobre diversas áreas para estabelecer relações e conexões que são tão ricas na interdisciplinaridade que é necessária no profissional do futuro🦾.
+
+Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa saber bem é: Resolver problemas e entregar resultados📚.
  
- 
-## Technology 
- 
-Here are the technologies used in this project.
- 
-* Ruby version  x.x.x
-* Rails version x.x.x
-* ...
- 
- 
-## Services Used
- 
-* Github
-* ...
- 
- 
-## Ruby Gems
-...
- 
-## Getting started
- 
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
- 
-## How to use
- 
-Here will be the images and descriptions. Principal content.
- 
- 
-## Features
- 
-  - Here will be the features.
- 
- 
-## Links
- 
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
- 
- 
-## Versioning
- 
-1.0.0.0
- 
- 
-## Authors
- 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
- 
- 
-Please follow github and join us!
-Thanks to visiting me and good coding!
+ ## Soft Skills
+ - Microsoft Power BI(PBI)✅
+ - Microsoft PowerPoint✅
+ - Microsoft Excel✅
+ - Microsoft Word✅
+ - MYSQL🟨
+ - Sql Server🟨
+ - Oracle🟨
+ - Postgresql🟨
+ - Python🟨
+ - Linguagem R🟨
+ - Protheus🟨
+ - Totvs✅
+ - HTML🟨
+ - CSS🟨
+ - BOOTSTRAP🟨
+ - JAVASCRIPT🟨
+ - JAVA🟨
+ - 
+## Estou em processo de aprendizagem para um dia, todas as minhas Soft Skils estarem concluidas
