@@ -1,2 +1,1 @@
-## Projetos Desenvolvidos 
-## 😎👍
+## "Projetos Desenvolvidos"
