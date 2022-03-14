@@ -4,7 +4,8 @@
 /*----------Por: Nicolas Alves*/
 /*---------------------------------*/
 
---Resumo: "Criar um Banco de dados de informações de funcionarios de 12 lojas para um Shopping"--
+--Objetivo: "Criar um Banco de dados de informações de funcionarios de 12 lojas para um Shopping.
+--E adicionalmente criar um Backup(para quando deletar no sistema) dos dados de um funcionario demitido fique salvo"--
 
 --A1.BANCOS--
 
