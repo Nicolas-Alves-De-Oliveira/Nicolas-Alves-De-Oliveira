@@ -32,3 +32,4 @@ Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa
  - JAVA🟨
  - 
 ## Estou em processo de aprendizagem para um dia, todas as minhas Soft Skils estarem concluidas
+
