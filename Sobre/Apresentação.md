@@ -13,6 +13,12 @@ Sou completamente apaixonado pela área de tecnologia💻. Sempre estou em busca
 Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa saber bem é: Resolver problemas e entregar resultados📚.
  
  ## Soft Skills
+ 
+ ### índice
+     ✅- Sabe/Domina
+     🟨- Aprendendo/Em andamento
+     🟥- Não Sabe/Ainda vai desenvolver
+     
  - Microsoft Power BI(PBI)✅
  - Microsoft PowerPoint✅
  - Microsoft Excel✅
@@ -25,11 +31,11 @@ Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa
  - Linguagem R🟨
  - Protheus🟨
  - Totvs✅
- - HTML🟨
- - CSS🟨
- - BOOTSTRAP🟨
- - JAVASCRIPT🟨
- - JAVA🟨
+ - HTML🟥
+ - CSS🟥
+ - BOOTSTRAP🟥
+ - JAVASCRIPT🟥
+ - JAVA🟥
  - 
 ## Estou em processo de aprendizagem para um dia, todas as minhas Soft Skils estarem concluidas
 
