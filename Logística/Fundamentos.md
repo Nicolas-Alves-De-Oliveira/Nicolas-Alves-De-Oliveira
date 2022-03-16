@@ -41,12 +41,15 @@ Abastecimento🚚 -----> Produção🏭(ou transformação, armazenagem) -------
 
 * Serviços de Informação: que consistem as informações chegarem nas pessoas com grande qualidade e também que a informação esteja em fácil e rapido acesso.
 
+### 8-Planejamento Logístico:
 
+[]!https://github.com/Nicolas-Alves-De-Oliveira/Projetos/blob/3e13e335caf5dbad5d3cbbf644eb0bc35c7a5690/Log%C3%ADstica/planejamento-logistico.jpg
 
 ### ESPECIAL- Logística no TI?
 
 A logística é uma área essencial para a sua empresa. Porém, é normal ser necessário otimizá-la. É aí que entra o papel da Tecnologia da Informação (TI). Ela permite alcançar novos patamares por meio de ferramentas que suportam as atividades logísticas, melhorando a execução e controle dos processos.
 Ou seja, é fundamental que saibamos os fundamentos da logística e sua Supply Chain para que possamos otimizá-la, melhorando nosso valor.
+
 
 
 
