@@ -57,6 +57,9 @@ Ou seja, cada nível requer uma perspectiva diferente, quanto maior o horizonte 
 Um exemplo, um plano estratégico(planejado) pode estabelecer que todos os estoques não ultrapassem um determinado limite financeiro.
 Por outro lado, um plano operacional(prática) para estoques exige que cada um dos seus itens seja administrado isoladamente.
 
+### 
+
+
 ### ESPECIAL- Logística no TI?
 
 A logística é uma área essencial para a sua empresa. Porém, é normal ser necessário otimizá-la. É aí que entra o papel da Tecnologia da Informação (TI). Ela permite alcançar novos patamares por meio de ferramentas que suportam as atividades logísticas, melhorando a execução e controle dos processos.
