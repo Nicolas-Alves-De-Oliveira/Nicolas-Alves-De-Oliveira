@@ -74,19 +74,9 @@ Por outro lado, um plano operacional(prática) para estoques exige que cada um d
 * 3. CHECK- Acompanhar os resultados.
 * 4. ACT- Executar o plano de ação.
 
-
-
-
-
-
-
 ### ESPECIAL- Logística no TI?
 
 A logística é uma área essencial para a sua empresa. Porém, é normal ser necessário otimizá-la. É aí que entra o papel da Tecnologia da Informação (TI). Ela permite alcançar novos patamares por meio de ferramentas que suportam as atividades logísticas, melhorando a execução e controle dos processos.
 Ou seja, é fundamental que saibamos os fundamentos da logística e sua Supply Chain para que possamos otimizá-la, melhorando nosso valor.
-
-
-
-
 
 
