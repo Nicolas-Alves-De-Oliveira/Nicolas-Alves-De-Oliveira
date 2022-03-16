@@ -1,4 +1,4 @@
-## Fundamentos da Logística📦:
+## Fundamentos da Logística📦(Módulo Básico):
 
 ### 1- A melhor forma de conquistar a credibilidade profissional hoje em dia é "Compartilhando Conhecimento".
 
@@ -17,6 +17,9 @@ Ou seja, se vc for bem atendido e aquele produto chegou em suas mãos de uma man
 
 "O Supply Chain Management (SCM) diz respeito a área da empresa que integra o fluxo de recursos, sejam eles materiais ou imateriais. Ele compreende todo o processo de atendimento, que se inicia desde a aquisição das mercadorias, passando pela movimentação, transformação e manuseio e depois para o atendimento de um pedido até a entrega ao cliente. Como tudo funciona de modo integrado, não existe maior ou menor atenção para diferentes processos."
 Ou seja, o processo todo é importante sem hierarquias.
+
+Por que SCM?
+Uma rede integrada permite agregar mais valor ao mesmo tempo que reduz os custos, operando de forma cada vez mais eficiente e eficaz.
 
 ### 5-  Atuação da Logística:
 
@@ -57,7 +60,24 @@ Ou seja, cada nível requer uma perspectiva diferente, quanto maior o horizonte 
 Um exemplo, um plano estratégico(planejado) pode estabelecer que todos os estoques não ultrapassem um determinado limite financeiro.
 Por outro lado, um plano operacional(prática) para estoques exige que cada um dos seus itens seja administrado isoladamente.
 
-### 
+### 9- A Melhoria Contínua na Logística
+
+* ☑  Mercado cada vez mais interligado;
+* ☑ Mais produtos;
+* ☑  Maior acesso a outras impresas;
+* ☑  Clientes buscando a melhor experiência de compra;
+
+### 10- Modelo de planejamento de Melhoria( Ciclo PDCA)
+
+* 1. PLAN- Localizar as falhas e elaborar o plano de ação.
+* 2. DO- Corrigir os erros.
+* 3. CHECK- Acompanhar os resultados.
+* 4. ACT- Executar o plano de ação.
+
+
+
+
+
 
 
 ### ESPECIAL- Logística no TI?
