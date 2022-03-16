@@ -1,4 +1,4 @@
-## Fundamentos da Logística:
+## Fundamentos da Logística📦:
 
 ### 1- A melhor forma de conquistar a credibilidade profissional hoje em dia é "Compartilhando Conhecimento".
 
@@ -43,7 +43,19 @@ Abastecimento🚚 -----> Produção🏭(ou transformação, armazenagem) -------
 
 ### 8-Planejamento Logístico:
 
-[]!https://github.com/Nicolas-Alves-De-Oliveira/Projetos/blob/3e13e335caf5dbad5d3cbbf644eb0bc35c7a5690/Log%C3%ADstica/planejamento-logistico.jpg
+![](https://github.com/Nicolas-Alves-De-Oliveira/Projetos/blob/3e13e335caf5dbad5d3cbbf644eb0bc35c7a5690/Log%C3%ADstica/planejamento-logistico.jpg)
+
+
+* Estratégico: Busca de ideias e métodos práticos para aplicação no Supply Chain.
+
+* Tático: Centrado no que precisa ser implementado que seja ativo em curto prazo.
+
+* Operacional: Controle de demanda, volume e quantidade de equipamento e pessoas suficientes para a execução dos procedimentos a longo prazo.
+
+Ou seja, cada nível requer uma perspectiva diferente, quanto maior o horizonte de tempo, menos preciso serão os dados, a serem trabalhados no planejamento, e o planejamento nível tático e operacional muitas vezes exige maior conhecimento, por tratar problemas mais especifícos.
+
+Um exemplo, um plano estratégico(planejado) pode estabelecer que todos os estoques não ultrapassem um determinado limite financeiro.
+Por outro lado, um plano operacional(prática) para estoques exige que cada um dos seus itens seja administrado isoladamente.
 
 ### ESPECIAL- Logística no TI?
 
