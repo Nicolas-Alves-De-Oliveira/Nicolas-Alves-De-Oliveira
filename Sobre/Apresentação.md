@@ -12,7 +12,7 @@ Sou completamente apaixonado pela área de tecnologia💻. Sempre estou em busca
 
 Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa saber bem é: Resolver problemas e entregar resultados📚.
  
- ## Soft Skills
+ ## Soft Skills(Programação):
  
  ### índice
      ✅- Sabe/Domina
