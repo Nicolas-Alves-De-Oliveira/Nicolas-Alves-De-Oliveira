@@ -2,6 +2,8 @@
  
 ## Eu sou Nicolas Alves!
  
+ Aqui deixo meus conhecimentos e alguns projetos como repositório e amostra de trabalho.
+ 
  Espero que aproveite a visita!
  
 ## Contato
