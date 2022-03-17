@@ -1,4 +1,4 @@
-# Guia De Banco de Dados no MySQL 8.0🗄 #
+# Guia De Banco de Dados no MySQL 8.0 #
 
 * REGRA 1: TODO COMANDO SQL DEVE SER DIVIDIDO POR ,(VIRGULA) E TERMINADO COM ;(PONTO E VIRGULA) QUE É O DELIMITADOR PADRÃO
 
