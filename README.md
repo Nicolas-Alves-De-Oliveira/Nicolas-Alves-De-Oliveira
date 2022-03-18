@@ -2,9 +2,11 @@
  
 ## Eu sou Nicolas Alves!
  
- Aqui deixo meus conhecimentos e alguns projetos como repositório e amostra de trabalho.
+ #### Aqui deixo meus conhecimentos e alguns projetos como repositório e amostra de trabalho.
  
- Espero que aproveite a visita!
+ #### "A melhor forma de conquistar a credibilidade profissional hoje em dia é "Compartilhando Conhecimento".
+ 
+ #### Espero que aproveite a visita!
  
 ## Contato
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nicolas-Alves-De-Oliveira)](https://github.com/Nicolas-Alves-De-Oliveira)
