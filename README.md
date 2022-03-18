@@ -1,13 +1,8 @@
 # Bem-Vindo
- 
 ## Eu sou Nicolas Alves!
- 
  #### Aqui deixo meus conhecimentos e alguns projetos como repositório e amostra de trabalho.
- 
  #### "A melhor forma de conquistar a credibilidade profissional hoje em dia é "Compartilhando Conhecimento".
- 
  #### Espero que aproveite a visita!
- 
 ## Contato
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nicolas-Alves-De-Oliveira)](https://github.com/Nicolas-Alves-De-Oliveira)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nicolas-alves-de-oliveira-36a21321b)](https://www.linkedin.com/in/nicolas-alves-de-oliveira-36a21321b)
@@ -15,4 +10,3 @@
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nicolasalvesdeoliveira016@gmail.com
 )](mailto:nicolasalvesdeoliveira016@gmail.com
 )
-
