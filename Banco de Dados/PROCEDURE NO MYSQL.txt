@@ -1,0 +1,37 @@
+/* PROCEDURE NO MYSQL */ 
+
+CREATE TABLE FUNCIONARIOS(
+                         IDFUNCIONARIO INT PRIMARY KEY AUTO_INCREMENT,
+                             NOME VARCHAR(40) NOT NULL,
+                             GÊNERO ENUM('M','F','Outros') NOT NULL,
+                             CARGO VARCHAR(40) NOT NULL,
+                             SALÁRIO FLOAT(10,2) NOT NULL
+);
+
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Evandro Ribeiro','M','Auxiliar de Manutenção',1300.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Everton Alves','Outros','Auxiliar de Manutenção',1300.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Nicolas Alves','M','Estágiario de TI',1700.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Rosa Bernandita','F','Assistente de RH',1500.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Esmeralda Oliveira','M','Tecníco de Segurança no Trabalho',2100.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Paolo Henrique','Outros','Gestor de RH',2300.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Jorge Valadão','M','Estágiario de Logística',1400.00);
+INSERT INTO FUNCIONARIOS VALUES(NULL,'Ailton Simon','M','Assistente de Logística',1600.00);
+    
+--PROCEDURE QUE FILTRE A BUSCA DE UM FUNCIONARIO COM SEU REGISTRO COMPLETO--
+
+CREATE PROCEDURE R_FUNCIONARIO(
+               @NOME VARCHAR(40))
+AS
+
+                 SELECT IDFUNCIONARIO, NOME, GÊNERO, CARGO, SALÁRIO
+                  FROM FUNCIONARIOS
+                  WHERE NOME = @NOME
+GO
+
+--TESTE--
+
+EXECUTE R_FUNCIONARIO('Nicolas Alves')
+GO
+
+
+
