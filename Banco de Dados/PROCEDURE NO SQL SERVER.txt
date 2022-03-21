@@ -1,0 +1,61 @@
+/* PROCEDURE NO SQL SERVER */ 
+
+CREATE TABLE FUNCIONARIOS(
+                         IDFUNCIONARIO INT PRIMARY KEY IDENTITY(1000,100),
+                             NOME VARCHAR(40) NOT NULL,
+                             GÊNERO CHAR(5) NOT NULL
+             CHECK( GÊNERO IN('M','F','Outros'),
+                             CARGO VARCHAR(40) NOT NULL,
+                             SALÁRIO NUMERIC(10,2) NOT NULL
+)
+GO
+
+INSERT INTO FUNCIONARIOS VALUES('Evandro Ribeiro','M','Auxiliar de Manutenção',1300.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Everton Alves','Outros','Auxiliar de Manutenção',1300.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Nicolas Alves','M','Estágiario de TI',1700.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Rosa Bernandita','F','Assistente de RH',1500.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Esmeralda Oliveira','M','Tecníco de Segurança no Trabalho',2100.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Paolo Henrique','Outros','Gestor de RH',2300.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Jorge Valadão','M','Estágiario de Logística',1400.00)
+GO
+INSERT INTO FUNCIONARIOS VALUES('Ailton Simon','M','Assistente de Logística',1600.00)
+GO
+    
+--PROCEDURE QUE FILTRE A BUSCA DE UM FUNCIONARIO COM SEU REGISTRO COMPLETO--
+
+CREATE PROCEDURE R_FUNCIONARIO(
+               @NOME VARCHAR(40))
+AS
+
+                 SELECT IDFUNCIONARIO, NOME, GÊNERO, CARGO, SALÁRIO
+                  FROM FUNCIONARIOS
+                  WHERE NOME = @NOME
+GO
+
+--TESTE--
+
+EXECUTE R_FUNCIONARIO('Nicolas Alves')
+GO
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE PROCEDURE PROC_FUNCIONARIO
