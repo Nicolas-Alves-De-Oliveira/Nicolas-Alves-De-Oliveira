@@ -29,8 +29,9 @@ Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa
  - PostgreSQL🟨
  - Python🟨
  - Linguagem R🟨
- - Protheus🟨
+ - Protheus✅
  - Totvs✅
+ - CHATBOTS🟥
  - HTML🟥
  - CSS🟥
  - BOOTSTRAP🟥
