@@ -152,6 +152,8 @@ BEGIN
                  @PRODUTO = PRODUTO,
                  @PRECO_ANTIGO = PRECO FROM DELETED,
                  @PRECO_NOVO = PRECO FROM ÍNSERTED
+	   FROM PRODUTOS
+	   
 
           SET @DATA_MODIFICACAO = GETDATE()
           SET @USUARIO = SUSER_NAME()
