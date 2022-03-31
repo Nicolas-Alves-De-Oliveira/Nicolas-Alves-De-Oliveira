@@ -1,0 +1,33 @@
+--FORMATANDO DATAS PARA FORMATO BRASILEIRO SQL SERVER--
+
+--DADOS A SEREM TRANSFORMADOS--
+
+SELECT * FROM PESSOA
+GO
+
+IDPESSOA    NOME                           SEXO NASCIMENTO
+----------- ------------------------------ ---- ----------
+1           ANTONIO                        M    1981-02-13
+2           DANIEL                         M    1985-03-18
+3           CLEIDE                         F    1979-10-13
+4           MAFRA                          M    1981-02-13
+5           NICOLAS                        M    2003-12-05
+6           JULIA                          F    1999-06-21
+
+--FUNÇÃO CONVERT( VARCHAR(10), DATA--DATA A SER EXIBIDA-- ,103--FORMATO BR--) AS DATA--
+
+SELECT IDPESSOA AS ID, NOME, SEXO AS GÊNERO, 
+       (CONVERT( VARCHAR(10), NASCIMENTO, 103)) AS NASCIMENTO
+FROM PESSOA
+GO
+
+ID          NOME                           GÊNERO NASCIMENTO
+----------- ------------------------------ ------ ----------
+1           ANTONIO                        M      13/02/1981
+2           DANIEL                         M      18/03/1985
+3           CLEIDE                         F      13/10/1979
+4           MAFRA                          M      13/02/1981
+5           NICOLAS                        M      05/12/2003
+6           JULIA                          F      21/06/1999
+
+
