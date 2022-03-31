@@ -1,0 +1,30 @@
+--FORMATANDO DATAS PARA FORMATO BRASILEIRO MYSQL--
+
+--DADOS A SEREM TRANSFORMADOS--
+
+SELECT * FROM MEMBROS_TI;
+
++----------+-----------------+------+-------------+---------+------------+
+| IDMEMBRO | NOMES           | SEXO | CARGO       | SALARIO | NASCIMENTO |
++----------+-----------------+------+-------------+---------+------------+
+|        1 | NICOLAS         | M    | Estágiario  | 1680.00 | 2002-05-25 |
+|        2 | LÚCIA           | F    | Analista    | 2400.00 | 2002-05-25 |
+|        3 | RODRIGO         | M    | Gestor      | 5000.00 | 2002-05-25 |
+|        4 | PAULA           | F    | Assistente  | 1800.00 | 2002-05-25 |
++----------+-----------------+------+-------------+---------+------------+
+
+--FUNÇÃO (DATE_FORMAT(DATA,'%d/%m/%Y'))--
+
+SELECT IDMEMBRO AS ID, NOMES, SEXO AS GÊNERO, CARGO, SALARIO, 
+        (DATE_FORMAT(NASCIMENTO,'%d/%m/%Y')) AS NASCIMENTO
+FROM MEMBROS_TI;
+
++----+-----------------+---------+-------------+---------+------------+
+| ID | NOMES           | GÊNERO  | CARGO       | SALARIO | NASCIMENTO |
++----+-----------------+---------+-------------+---------+------------+
+|  1 | NICOLAS         | M       | Estágiario  | 1680.00 | 25/05/2002 |
+|  2 | LÚCIA           | F       | Analista    | 2400.00 | 25/05/2002 |
+|  3 | RODRIGO         | M       | Gestor      | 5000.00 | 25/05/2002 |
+|  4 | PAULA           | F       | Assistente  | 1800.00 | 25/05/2002 |
++----+-----------------+---------+-------------+---------+------------+
+
