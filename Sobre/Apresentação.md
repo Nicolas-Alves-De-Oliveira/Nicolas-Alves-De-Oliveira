@@ -24,16 +24,15 @@ Quem trabalha com Tecnologia não precisa saber tudo. A única coisa que precisa
  - Microsoft Excel✅
  - Microsoft Word✅
  - MySQL✅
- - SQL Server🟨
- - Oracle🟨
- - PostgreSQL🟨
+ - SQL Server✅
+ - Oracle🟥
+ - PostgreSQ🟥
  - Python🟨
- - Linguagem R🟨
  - Protheus✅
  - Totvs✅
  - CHATBOTS🟥
- - HTML🟥
- - CSS🟥
+ - HTML5🟨
+ - CSS3🟨
  - BOOTSTRAP🟥
  - JAVASCRIPT🟥
  - JAVA🟥
