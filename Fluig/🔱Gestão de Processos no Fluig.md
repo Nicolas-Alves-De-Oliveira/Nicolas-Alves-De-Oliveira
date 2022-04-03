@@ -137,6 +137,8 @@ Atribuições:
 
 Podemos adicionar regras nos campos do formulário para definir o comportamento dos campos em todas as atividades do processo.
 
+### Exportação dica: Podendo ser exportado o processo criados, já feitos e baixá-los em formato aberto no Excel, para dar uma organizada rápida selecio as colunas na setinha esquerda do lado do A1 e depois de selecionar todos os campos clique na linha entre os campos para organizá-los e CTRL+SHIFT+L = Filtro Rápido
+
 
 
 
