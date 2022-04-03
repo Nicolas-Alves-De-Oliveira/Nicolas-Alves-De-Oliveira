@@ -151,3 +151,7 @@ Podemos adicionar regras nos campos do formulário para definir o comportamento 
 
 * Gerador de Imagem de Processo, imagem do fluxograma de um processo, que pode ser usado como modelo ou apresentação
 
+### Extra: Approval Fluig
+
+* Aplicativo destinado a pessoas com papéis de finalizar ou dar continuidade para o processo pela sua decisão, podendo ser visualizada nesse app
+
