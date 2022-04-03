@@ -33,9 +33,9 @@ O fluig aceitará apenas uma única instância de objeto de Início comum por di
 🟥- Fim
 -Indica o fim do processo
 -Esta tarefa não é atribuída a nenhum usuário
--Não ocorrem processamentos após o final da solicitação (exceto via desenvolvimento)
+-Não ocorrem processamentos após o final da solicitação(exceto via desenvolvimento)
 -É possível ter um ou mais Finais comuns
-- Neste componente podemos alterar o nome e marcar quais os usuários que serão notificados ao chegar nesta atividade.
+- Neste componente podemos alterar o nome e marcar quais os usuários que serão notificados ao chegar nesta atividade.
 
 ⬜- Atividade comum
 -É a unidade básica da separação de um processo em atividades
@@ -71,10 +71,10 @@ O- Swinlane:
  -Fork e Join indicam, respectivamente, o início e o fim das atividades paralelas
 -Caso existam atividades paralelas pendentes, o processo fica posicionado no Join, até que todas as atividades sejam concluídas
 
-O- Subprocesso:
+⬜- Subprocesso:
 -Alterar as características do componente e selecionar qual subprocesso será inicializado ao chegar nesta atividade.
 
-O- Subprocesso Ad Hoc
+⬛- Subprocesso Ad Hoc
 -Criar lista de tarefas, definir o que será feito o responsável em executar a tarefa e qual o prazo. 
 
 
