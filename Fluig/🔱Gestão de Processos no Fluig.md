@@ -139,7 +139,15 @@ Podemos adicionar regras nos campos do formulário para definir o comportamento 
 
 ### Exportação dica: Podendo ser exportado o processo criados, já feitos e baixá-los em formato aberto no Excel, para dar uma organizada rápida selecio as colunas na setinha esquerda do lado do A1 e depois de selecionar todos os campos clique na linha entre os campos para organizá-los e CTRL+SHIFT+L = Filtro Rápido
 
+### Campo de Painel de Controle:
 
+* Expediente, dias e horas que a empresa trabalha podendo ser sujeitos a mudança
 
+* Feriados programados e únicos, como por exemplo um aniversário da empresa de 15 anos
 
+* Valor hora-usuário onde programamos por usuários seu cálculo de salário por horas trabalhadas, para cumprir sua jornada por exemplo de 8 horas por dia nos 5 dias da semana.
+
+* Temas de Formulários onde se personaliza as cores e modelos de um formulário e pode ser escolhido na sua criação
+
+* Gerador de Imagem de Processo, imagem do fluxograma de um processo, que pode ser usado como modelo ou apresentação
 
