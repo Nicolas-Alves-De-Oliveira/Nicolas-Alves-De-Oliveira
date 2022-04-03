@@ -68,6 +68,9 @@ dependendo da resposta ela terá caminhos diferentes, passando para outros proce
 🟩- Fluxo Comum
 -Padrão para movimentação de atividades
 -Permite que uma atividade seja movimentada sem a possibilidade de retorno
+-Ex:
+
+Movimentei o processo de tipo de problemas e nenhum se encaixou, coloco uma resposta diferente ou opção "outros" para movimentar em outro processo que pode ser para ser analisado por um membro do departamento de TI
 
 🟥- Fluxo de Retorno
 -Permite retorno para a atividade de origem
