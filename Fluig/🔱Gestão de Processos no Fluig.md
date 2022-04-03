@@ -35,8 +35,6 @@ ECM(Enterprise Content Management ou Gestão de Conteúdo Empresarial) é uma co
 
 -Controle de Tempo de expiração da tarefa, notificação de gestor ou solicitante, tempo de tolerência de atraso ou mesmo tempo de expediente da sua empresa para não aceitar dar continuidade no fim de semana por exemplo onde ninguém trabalha(no nosso exemplo)
 
-
-
 🟥- Fim
 -Indica o fim do processo
 
@@ -115,6 +113,7 @@ Movimentei para a analista de RH, ela no tempo definido não viu( por quê estav
 ⬛- Subprocesso Ad Hoc
 -Criar lista de tarefas, definir o que será feito o responsável em executar a tarefa e qual o prazo. 
 
+##### OBS: Em propriedades do Processo, temos variadas funções como a aba de versão adicionar nova versão com um descrição com as opções de atualizar a versão dentro dos anexos dos processos e também confirmação de senha para fazerem os processos, na aba de segurança de anexos podemos privar acesso dos usuários sobre a publicação, editamento e removeção anexos dele ou de outros usuários.
 
 ### O que são mecanismos de atribuição ? 
 
