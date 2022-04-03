@@ -50,11 +50,10 @@ Irá decidir o destino de um processo através de programação que
 será utilizada para mover o processo para a atividade relacionada
 Apenas um caminho poderá ser percorrido utilizado este tipo de gateway.
  Além de alterar o nome de exibição, neste componente podemos definir quais as condições a serem validadas bem como as atividades de destino.
- 
-EX:
+-EX:
 Expressão de escolha no Automático: hAPI.getCardValue("id_campo_desejado exemplo: tipo_hardware_software")==Resposta desejada.
 
-Exemplo campo qual o tipo de problema? 1(Hardware) ou 2(Software)
+3. Exemplo campo qual o tipo de problema? 1(Hardware) ou 2(Software)
 
 R:1
 
@@ -72,6 +71,11 @@ dependendo da resposta ela terá caminhos diferentes, passando para outros proce
 
 🟥- Fluxo de Retorno
 -Permite retorno para a atividade de origem
+-Ex:
+
+Não entendi o problema. Detalhe melhor os detalhes.
+
+e quando enviar, terá a opção de retorno ao solicitante.
 
 🟨- Fluxo Automático 
 -Se o prazo da atividade for concluído sem que ela tenha sido movimentada, será movido automaticamente
