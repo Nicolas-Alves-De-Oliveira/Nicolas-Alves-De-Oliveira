@@ -50,6 +50,21 @@ Irá decidir o destino de um processo através de programação que
 será utilizada para mover o processo para a atividade relacionada
 Apenas um caminho poderá ser percorrido utilizado este tipo de gateway.
  Além de alterar o nome de exibição, neste componente podemos definir quais as condições a serem validadas bem como as atividades de destino.
+ 
+EX:
+Expressão de escolha no Automático: hAPI.getCardValue("id_campo_desejado exemplo: tipo_hardware_software")==Resposta desejada.
+
+Exemplo campo qual o tipo de problema? 1(Hardware) ou 2(Software)
+
+R:1
+
+na programação da atividade automática em Expressão:
+
+hAPI.getCardValue("tipo_hardware_software")==1 = Hardware
+
+hAPI.getCardValue("tipo_hardware_software")==2 = Software
+
+dependendo da resposta ela terá caminhos diferentes, passando para outros processos.
 
 🟩- Fluxo Comum
 -Padrão para movimentação de atividades
