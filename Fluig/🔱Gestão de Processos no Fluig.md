@@ -26,9 +26,16 @@ ECM(Enterprise Content Management ou Gestão de Conteúdo Empresarial) é uma co
 
 🟩- Início
 -Indica o início do processo
+
 -Usuários que tiverem a permissão poderão iniciar o mesmo através da tela de inicialização de solicitações do fluig
+
 -As permissões são definidas através do mecanismo de atribuição desta atividade
-O fluig aceitará apenas uma única instância de objeto de Início comum por diagrama
+
+-O fluig aceitará apenas uma única instância de objeto de Início comum por diagrama
+
+-Controle de Tempo de expiração da tarefa, notificação de gestor ou solicitante, tempo de tolerência de atraso ou mesmo tempo de expediente da sua empresa para não aceitar dar continuidade no fim de semana por exemplo onde ninguém trabalha(no nosso exemplo)
+
+
 
 🟥- Fim
 -Indica o fim do processo
