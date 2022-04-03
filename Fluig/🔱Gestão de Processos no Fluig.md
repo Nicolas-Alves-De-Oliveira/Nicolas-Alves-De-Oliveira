@@ -22,7 +22,9 @@ ECM(Enterprise Content Management ou Gestão de Conteúdo Empresarial) é uma co
 
 ### Conhecendo as propriedades do processo com modelagem:
 
-##### BPMN (Business Process Model and Notation ou Modelo de Processo de Negócios e Notação) é uma notação para modelagem de processos de negócio. Em outras palavras, o BPMN estabelece um padrão para representar os processos graficamente, por meio de diagramas.
+##### BPMN (Business Process Model and Notation ou Modelo de Processo de Negócios e Notação) é uma notação para modelagem de processos de negócio. Em outras palavras, o BPMN estabelece um padrão para representar os processos graficamente, por meio de diagramas. 
+
+##### OBS: Nos processo é possivel configurar papéis de quem efetuará o processo, grupo ou qualquer pessoa pode movimentar esse processo
 
 🟩- Início
 -Indica o início do processo
