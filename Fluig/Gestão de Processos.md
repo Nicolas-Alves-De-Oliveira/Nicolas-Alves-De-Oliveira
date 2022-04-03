@@ -58,7 +58,7 @@ Apenas um caminho poderá ser percorrido utilizado este tipo de gateway.
 -Se o prazo da atividade for concluído sem que ela tenha sido movimentada, será movido automaticamente
 -Obrigatório que a atividade de origem tenha um prazo definido e que uma tarefa agendada seja configurada (Fluxo automático)
 
-O- Swinlane:
+🟦- Swinlane:
 -Componente é utilizado para definir o escopo de cada processo  e possibilita identificar os papéis responsáveis pela execução 
 
 📒- Documento
@@ -86,13 +86,13 @@ O- Swinlane:
 
 Atribuições: 
 
-Para um Papel (Pool) = Qualquer um dos usuários no papel escolhido pode assumir as tarefas para completá-las
+* Para um Papel (Pool) = Qualquer um dos usuários no papel escolhido pode assumir as tarefas para completá-las
 
-Para um Grupo (Pool) = Qualquer um dos usuários no grupo escolhido pode assumir as tarefas para completá-las
+* Para um Grupo (Pool) = Qualquer um dos usuários no grupo escolhido pode assumir as tarefas para completá-las
 
-Por Associação = Permite compor lógicas complexas de atribuição através da associação de vários mecanismos
+* Por Associação = Permite compor lógicas complexas de atribuição através da associação de vários mecanismos
 
-Por Campo de Formulário = Permite atribuir tarefas ao usuário informado em um campo do formulário do processo
+* Por Campo de Formulário = Permite atribuir tarefas ao usuário informado em um campo do formulário do processo
 
 ### Regras nos campos de formulário:
 
