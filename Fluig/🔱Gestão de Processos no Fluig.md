@@ -79,7 +79,12 @@ e quando enviar, terá a opção de retorno ao solicitante.
 
 🟨- Fluxo Automático 
 -Se o prazo da atividade for concluído sem que ela tenha sido movimentada, será movido automaticamente
+
 -Obrigatório que a atividade de origem tenha um prazo definido e que uma tarefa agendada seja configurada (Fluxo automático)
+
+-Ex:
+
+Movimentei para a analista de RH, ela no tempo definido não viu( por quê estava de licença sem sabermos) logo com o fluxo automático ele manda por exemplo para o gestor do RH e ele da continuidade ao processo.
 
 🟦- Swinlane:
 -Componente é utilizado para definir o escopo de cada processo  e possibilita identificar os papéis responsáveis pela execução 
