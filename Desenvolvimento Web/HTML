@@ -1,0 +1,22 @@
+HTML, CSS E JAVASCRIPT:
+
+O que há em uma página da Web?
+
+É impressionante o que é possível realizar com um site nos dias de hoje!
+
+Em uma página da Web, a linguagem de marcação de hipertexto (HTML) fornece seu conteúdo, as folhas de estilo em cascata (CSS) definem a aparência da página e o JavaScript é usado para fornecer interatividade com o usuário, ou seja, a sua lógica de negócios.
+
+Aqui você está usando:
+
+Um arquivo HTML para a estrutura da página e para o conteúdo
+Um arquivo CSS para apresentação e aplicação de estilos
+Um arquivo JavaScript para comportamentos e interatividade
+
+O que é CSS?
+CSS é a sigla para Cascading Style Sheets (em português, Folhas de Estilo em Cascata), que permite que você especifique qual deve ser a aparência de sua página.
+
+A ideia básica é direcionar ao código HTML, depois definir qual o estilo deve ser. Por exemplo, você pode marcar uma caixa e aplicar à ela cantos arredondados ou uma tela de fundo gradiente.
+
+O CSS é responsável por determinar a aparência dos hiperlinks e como eles respondem ao interagir com eles – embora você defina o endereço de destino em HTML.
+
+No CSS3, você também pode criar efeitos de animação sofisticados.
