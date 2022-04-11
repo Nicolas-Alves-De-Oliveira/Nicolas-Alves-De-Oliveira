@@ -1,4 +1,4 @@
-## Gestão de Processos - BPM/ECM Essentials
+## Gestão de Processos - BPM/ECM Essentials, Intermediate and Advanced
 
 ### 1. Sobre Processos de negócio
 
