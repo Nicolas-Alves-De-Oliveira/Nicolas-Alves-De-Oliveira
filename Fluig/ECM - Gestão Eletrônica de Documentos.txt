@@ -1,0 +1,96 @@
+ECM - Gestão Eletrônica de Documentos
+
+apoio- https://github.com/fluig/Treinamentos-Academy
+
+1.Habilidades:
+
+Agilidade na busca por documentos / 
+e segurança para seus documentos / 
+edição e acesso a documentos de forma inteligente/
+digitalização de documentos de forma organizada
+
+
+2.modelo usado no ECM = Taxonomia:
+
+Organização baseada na hierarquia, ou seja, vai de um tema geral para o mais especifico.
+Utilizado na organização de documentos de grandes e pequenas empresas.
+Com a vantagem de ser de rápido acesso e preservação  dos dados.
+
+3. Importação de arquivos com o arquivo descritor:
+
+- para importarmos dados espécicos mantendo a estrutura em pastas.
+- ex: temos documentos de admissão de funcionarios e devemos inserir no fluig
+ porém esta acumulado desde 2020 e temos as seguintes pastas;
+
+Fluig > documentos > rh > região(diferentes) > admissão > ano 
+
+logo em um editor de texto(pode até ser o bloco de notas)
+
+buscamos o caminho do arquivo:
+
+c://documents/rh/ãdmissões/2021/fernando.docx
+
+ficando assim: (divididos por tabulação)
+
+Rh\Admissões\	2021	Fernando.docx	Fernando Pereira
+Rh\Admissões\	2020	Fernanda.docx	Fernanda Ferrreira
+etc...
+
+salve como tipo .dat
+
+- Na pasta desejada no fluig > novo > publicação múltipla > selecione arquivo 
+
+4. Versões de Documentos:
+
+- podendo criar versões novas(adicionado grandes contéudos), nova revisão(adicionando pequenos detalhes)
+e podendo ser restaurado as antigas versões em documento > opções > informações gerais > Restaurar documento
+
+5.WebDAV = simplificando é Criação e Distribuição de Conteúdo pela Web, 
+exemplo pegar um documento do fluig para abrir no word para editar por programas externos.
+
+- Sendo extremamente importante atualizar a versão a cada detalhe editado dependendo do grau sendo nova revisão ou nova versão.
+
+5. Restringir documentos
+
+documento fluig > opções > complementar > redigir
+
+6. Cópia Controlada
+
+- Ao imprimir documentos selecione em > Marca d' água > cópia controlada
+
+- podendo ser vista em Painel de controle > pesquise "log" > filtre a pesquisa por dia ou área e busque
+
+7. Controle e Segurança de Documentos
+
+documento fluig > propriedades > segurança > regras de segurança de acesso para grupos ou pessoas espécificas
+
+níveis de acesso:
+
+L = Leitura
+G = Gravação
+M = Modificação
+T = Total
+
+8. Fluig Connect = app externo para gerenciar pastas e processos, porém mais complexo gama de opções
+
+9. Painel de Controle
+
+Funções:
+
+Marca d' água = podendo criar e manipular.
+
+Gerenciar Cotas = definir limite de espaço usado em arquivos, ex: defini que tais pastas não devem passar de 1GB para sobrecarregar o sistema.
+
+Áreas: criando e gerenciando grupos, que podem ser acionados juntos a um processo.
+
+Campos Customizados: podendo ser criado novo campo que pode ser ou não usado em todos os documentos.
+
+
+
+
+
+
+
+
+
+
