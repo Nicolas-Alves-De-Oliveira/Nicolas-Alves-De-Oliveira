@@ -81,7 +81,32 @@ Frequência:  minuto
 A Cada: 1
 Horário: xxxx
 
-6. 
+6. Personalizando a Central de Tarefas:
+
+Em pasta de fluig IDE > New > Evento Fluig
+
+escolha o evento, que pode ser qualquer ação realizada na plataforma:
+
+usaremos o "displayCentralTasks"
+
+-- criaremos um link para acessar MyDocuments(no exemplo pasta mais usada por nós)
+-- que fique na central de tarefas como atalho
+
+Código em JS:
+
+function displayCentralTasks(links) {
+
+   links.put("nome do link desejado", "URL");
+}
+
+Código em JS:
+
+function displayCentralTasks(links) {
+
+   links.put("Meus Documentos", "https://lab.fluig.com/portal/p/01/ecmnavigation?app_ecm_navigation_doc=193#");
+}
+
+depois em export > finish
 
 
 
