@@ -1,0 +1,80 @@
+ECM Intermediate
+
+
+dicas:
+
+1. lembrar ao exportar do IDE para o fluig exporte a pasta do html(não o html em si)
+
+2. Datasets:
+
+abaixo ou ao lado do seu script > visualização de Dataset > Consultar Dataset 
+
+Contendo os dados guardados, podendo ser manipulados por SQL
+
+Podendo ser filtrado em > Configurações de Filtros
+
+que seria tipo um: 
+
+select nome, usuário, senha from database;
+
+o uso em HTML para redimencionar a um database em sql:
+
+<!-- opção de troca de moeda, se no futuro precisarmos modificar essas opções sem mudar o html, usamos o metodo dataset fluig -->
+
+[...]
+  <label for="moeda"> Moeda </label>
+  <select name="moeda" id="moeda" class="form-control"> 
+  <option value="dolar"> Dolar Americano </option>
+  <option value="real"> Real </option>
+  <option value="iene"> Iene japonês </option>
+  </select>
+
+[...]
+
+Sua pasta IDE > New > Dataset Fluig > 
+
+(a sua escolha)
+código: DS_MOEDAS
+descrição: TIPOS DE MOEDAS
+
+- Sendo criada em JS:
+
+function createDataset(fields, constraints, sortfields) {
+
+var ds = DatasetBuilder.newDataset();
+
+ds.AddColumn("Simbolo");
+ds.AddColumn("Nome_Moeda");
+
+ds.AddRow(new Array("R$","Real"));
+ds.AddRow(new Array("¥","Iene"));
+ds.AddRow(new Array("$","Dolar"));
+
+return ds;
+
+}
+
+- E depois exporte ao servidor do fluig para ser consultado
+
+depois com uso do SQL:
+
+[...]
+  <label for="moeda"> Moeda </label>
+  <select name="moeda" id="moeda" class="form-control"
+   dataset="DS_MOEDAS" datasetkey="Simbolo" datasetvalue="Nome_Moeda"
+
+  </select>
+
+[...]
+
+criando dataset modificavel no fluig ao acesso do usuário:
+
+crie um novo formulário do fluig > atenção em Nome Dataset: Use o nome o dataset que será manipulado ou que tenha criado ex: moeda_ds
+
+Com isso criará-se um formulario de preechimento de adicionar moedas novas.
+
+3. Criando o Processo de seu Formulário:
+
+Sua pasta IDE > New > Diagrama Fluig 
+
+

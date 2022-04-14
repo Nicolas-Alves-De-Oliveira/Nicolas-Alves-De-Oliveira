@@ -1,0 +1,91 @@
+ECM Advanced
+
+Dicas:
+
+1. Elemento Sinal
+
+Objetivo: Disparar Sinal para Outros Processos.
+
+Cenário:
+
+no formulário vendas, foi preenchido e enviado, ele deve se conectar após a confirmação de compra, no formulário de logística alertando para mandar o produto.
+
+No Diagrama Vendas:
+
+Ao cliente confirmar compra > usar o recurso "Sinal" > criando seu nome "Compra Realizada" e Sinal = add+
+
+criando sinal:
+
+descrição: nome do processo a ser associado.
+
+No Diagrama de Logística:
+
+Receptor de Sinal > sinal = o mesmo que será enviado 
+
+depois iniciar alguma ação(movimentação)
+
+2. Elemento Timer
+
+Objetivo: Temos um processo, que precisa ser iniciado todo dia x do mês, com o processo sendo feito todo dia às 9:00h.
+
+
+Cenário: Fechamento de Vendas todo dia às 17:00tm
+
+
+Diagrama de Fechamento de Vendas:
+
+Usando o elemento timer:
+
+Nome: Fechamento
+frequência: dia
+a cada: 2 minutos
+horário: 17:00tm
+inicializador: colaborador(solicitante)
+
+3. Elemento Link
+
+Pontos distantes do processo se liguem.
+
+ex: processo de treinamento de funcionários se dá por 4 etapas, porém colaboradores que já realizaram no ano passado podem já pular a etapa 4 de prática.
+
+Elemento Link > na Atividade que será ligada
+
+Elemento Receptor de Link > na Atividade que será recebida 
+
+Configurando o Link de Envio:
+
+Aponte em Link: o receptor
+
+4. Elemento Gateway Inclusivo
+
+Ex: em um processo de ánalise de venda, de acordo com um valor da renda informada, um consultor pode ofertar alguns planos ao cliente.
+
+Elemento Inclusivo > unir as atividades paralelas com join > condições:
+
+script= hAPI.getCardValue("renda") > 100
+
+mecanismo = Financiar Imovel
+
+script= hAPI.getCardValue("renda") < 100
+
+mecanismo = Proposta de negociação
+
+5. Elemento Condicional
+
+Guardar uma determinada condição a ser atendida para ser movimentada.
+
+Elemento Condicional ligada no processo a ser atrelado:
+
+Nome: valor_dolar
+Frequência:  minuto
+A Cada: 1
+Horário: xxxx
+
+6. 
+
+
+
+
+
+
+
