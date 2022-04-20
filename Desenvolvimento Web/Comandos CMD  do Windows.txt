@@ -1,0 +1,72 @@
+Comandos CMD Windows:
+
+1. sfc /scannow = varredura de erros no sistema.
+
+
+2. Robocopy = backup de pastas ou arquivos, modelo exemplo de uso:
+
+>robocopy “pasta de origem” “pasta de destino”.
+
+ex:
+
+robocopy C:\aniversario C:\Users\rosan\Downloads. 
+
+
+3. Systeminfo = informações do sistema mais completas.
+
+
+4. Tasklist = identificação de todos os processos que estão em execução no momento.
+
+
+5. taskkill /f /im GoogleChrome.exe(exemplo.exe) = finalizar processo de aplicativo executável.
+
+
+6. shutdown -r(reiniciar)  or -t(desligar) 300(segundos) = desligar/reiniciar o computador em tantos segundos
+
+ex: Reiniciar o computador em 1 minuto por causa de um problema.
+
+>shutdown -r 60
+
+
+7. ipconfig /all = informações referentes à sua internet.
+
+
+8. Assoc = listagem das extensões e aplicativos que vc possui no computador para poder rodá-las, ou seja, ver qual app é melhor para rodar um arquivo com a extensão .7z(exemplo) que seria o Winrar.
+
+
+9. driverquery -v = informações dos drivers instalados no computador.
+
+
+10. Netstat = analisando as portas abertas, bem como IPs e protocolos.
+
+
+11. ping www.google.com(site exemplo) = verificar se um site está com problemas de conectividade ou não.
+
+
+12. type = comando de ver arquivos dentro do cmd, exemplo:
+
+c:\users\roman\documents>type arquivoteste.txt
+                          (tem que ter a extensão e nome exatos)
+= Testando, no cmd!
+
+
+13. cls = limpar cmd, dos comandos digitados.
+
+
+14. Curiosidade: Assistir Star Wars no Cmd, digite:
+
+telnet = se caso, não aparecer vá em painel de controle > programas e recursos > ativar ou desativar recursos do windows > marque a opção cliente telnet. Depois digite denovo no cmd.
+
+digite o > depois ( a ) telehack.com  > depois digite starwars
+
+Como resultado, teremos o filme sendo exibido, em formato ASCII:
+
+
+15. help = listagem de todos os comandos cmd, ou help ping(comando cmd) para dúvidas de um comando espécifico.
+
+
+
+
+
+
+
