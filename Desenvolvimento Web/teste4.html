@@ -1,0 +1,153 @@
+<!-- Teste de conhecimentos sobre Elementos Flutuantes
+
+	com <style type="text/css">
+
+		float: left, center ou right -> para indicar suposição, deixando o elemento como se não existisse e elevando ele 
+		clear: both -> para limpar a suposição e escrevr abaixo normalmente
+	  </style>
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Caixas de Notícias </title>
+	<style type="text/css">
+		
+    #fundo {
+
+    	background-color: skyblue;
+    	color: darkblue;
+
+    }
+
+    .caixa1 {
+
+    	border: 1px solid red;
+    	font-size: 20px;
+    	margin: 20px;
+    	font-family: Arial sans-serif;
+    }
+
+    .caixa2 {
+
+    	border: 1px solid red;
+    	float: left;     
+    	font-size: 20px;
+    	font-family: Arial sans-serif;
+    	margin: 20px;
+    	width: 400px;
+
+    }
+
+    .caixa3 {
+
+    	border: 1px solid red;
+    	float: right;
+    	font-size: 20px;
+    	font-family: Arial sans-serif;
+    	margin: 20px;
+    	width: 400px;
+
+    }
+
+    .Img {
+
+    	border: 1px solid red;
+    	float: left;
+    	font-size: 20px;
+    	font-family: Arial sans-serif;
+    	margin: 20px;
+    	width: 900px;
+    }
+
+    .clear {
+
+    	clear: both;
+
+    	border: 1px solid red;
+    	font-size: 20px;
+    	font-family: Arial sans-serif;
+    	margin: 20px;
+    }
+
+	</style>
+</head>
+<body id="fundo">
+
+	<div class="caixa1">
+		contéudo
+	</div>
+
+	<div class="caixa2">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	</div>
+
+	<div class="caixa2">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco. </p>
+	</div>
+
+	<div class="caixa2">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco.met, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullammet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullam </p>
+	</div>
+
+	<div class="caixa2">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco.met, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullammet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullam </p>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco.met, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullammet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullam. </p>
+	</div>
+
+	<div class="Img">
+		<img src="https://emc.acidadeon.com/dbimagens/jornal_a_790x505_29102018222427.jpg" width="900">
+	</div>
+
+	<div class="clear">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco.met, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullammet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullam </p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco.met, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullammet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullam. </p>
+	</div>
+
+	<!-- Sempre necessário limprar o fluxo dos elementos flutuantes, para como a cor do background seja aplicada-->
+
+
+</body>
+</html>
